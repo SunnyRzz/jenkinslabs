@@ -6,19 +6,19 @@ pipeline {
           sh "ls"
           }
       }
-      stage(‘second stage’){
+      stage('second stage'){
         steps {
-          sh “pwd”
+          sh "pwd"
           }
       }
-      stage(‘third stage’){
+      stage('third stage'){
         steps {
-          sh “touch newfile.txt”
+          sh "touch newfile.txt"
           }
       }
-      stage(‘script stage’){
+      stage('script stage'){
         steps {
-          sh “sh testscript.sh”
+          sh "sh testscript.sh"
           }
       }
     }
